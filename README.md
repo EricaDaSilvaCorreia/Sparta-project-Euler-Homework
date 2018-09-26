@@ -23,7 +23,7 @@
 
 ##### Challenges :
 
-For this homework I tried problem 4 and problem 5 (currently trying problem 6 so might update code and readme later on)
+For this homework I tried problem 4, problem 5 and problem 6.
 
 For problem 4 my main issue was that I confused by it at first. I tried it with the array.map method but I wasn't getting the results I wanted so I decided to try a loop.
 
@@ -48,13 +48,15 @@ for i in 2520..6350400
 end
 ~~~
 
-which gave me way too many numbers and I think it wasn't even looking for what I wanted so I decided to try another approach (see code line 26). I started adding 0's to the highest number until I decided to go for a large number until the loop returned a number.
+which gave me way too many numbers and I think it wasn't even looking for what I wanted so I decided to try another approach (see code line 26). I started adding 0's to the highest number until I decided to go for a large number until the loop returned a number. I'm convinced there is a shorter solution to this problem, I'll just have to keep trying with different things until I find something more effecient.
+
+for problem 6 I didn't have many issues, it was just getting my head around the .reduce and .map. I revisited the notes and googled a little to remind myself exactly what they did and after that it was pretty straight forward.
 
 -----
 
 ##### Take-Aways :
 
-I think it went really well. I really enjoyed the challenge, might even keep going until I reach the end of the list or pull all of my hair out, whichever comes first. I really like how it pushes me to try different things with ruby and google stuff out which is always great. Time wise, I can't complain much I did solve two problems in 1 hour using a new language so it'll always come down to good old practice practice practice.
+I think it went really well. I really enjoyed the challenge, might even keep going until I reach the end of the list or pull all of my hair out, whichever comes first. I really like how the problem pushes me to try different things with ruby and google stuff out which is always great. Time wise, I can't complain much I did solve two problems in 1 hour using a new language so it'll always come down to good old practice practice practice.
 
 I give it a 7/10.
 

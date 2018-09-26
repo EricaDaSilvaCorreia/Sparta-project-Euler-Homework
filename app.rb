@@ -22,7 +22,7 @@ puts arr1.max
 # ==== Problem 5 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
 # ==Problem 5 Solution ==
-
+#
 for i in 100000..500000000
   if i%1 == 0 && i%2 == 0 && i%3 == 0 && i%4 == 0 && i%5 == 0 && i%6 == 0 && i%7 == 0 && i%8 == 0 && i%9 == 0 && i%10 == 0 && i%11 == 0 && i%12 == 0 && i%13 == 0 && i%14 == 0 && i%15 == 0 && i%16 == 0 && i%17 == 0 && i%18 == 0 && i%19 == 0 && i%20 == 0
       p i
@@ -37,7 +37,17 @@ end
 # Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
 # ==Problem 6 Solution==
+arr1 = []
+arr2 = []
+for i in 1..100
+  arr1.push i
+  arr2.push i
+end
 
-# for i in 1..100
-#
-# end
+arr1.map! { |i| i**2  }
+sum3 = arr1.reduce 0, :+
+sum2 = arr2.reduce 0, :+
+x = sum2**2
+
+total = x-sum3
+p total
